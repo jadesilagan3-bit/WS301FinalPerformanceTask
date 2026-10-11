@@ -1,0 +1,105 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+}
+
+p {
+    text-align: center;
+    color: #666666;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+.agreement {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.agreement label {
+    margin: 0;
+}
+
+.error {
+    border: 2px solid red;
+    background-color: #fff0f0;
+}
+
+.error-message {
+    display: block;
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2878c8;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #185b9c;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.reset-button {
+    background-color: #777777;
+}
+
+#showPassword {
+    background-color: #555555;
+}
+
+#showPassword.showing {
+    background-color: #2878c8;
+}
+
+#successMessage {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
